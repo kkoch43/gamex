@@ -7,9 +7,9 @@
         <div class="col-md-12">
             <div class="jumbotron">
                 <h1>Welcome to GameX</h1>
-                <p class="lead">Thank you for visiting my blog!</p>
-                <p><a class="btn btn-primary btn-lg" href="signin" role="button">Sign Up</a></p>
-                <p><a class="btn btn-primary btn-lg" href="signup" role="button">Sign In</a></p>
+                <p class="lead">A game exchanger and recommender system!</p>
+                <p><a class="btn btn-primary btn-lg" href="{{ url('auth/register') }}" role="button">Sign Up</a></p>
+                <p><a class="btn btn-primary btn-lg" href="{{ route('login') }}" role="button">Sign In</a></p>
             </div>
 
         </div>
